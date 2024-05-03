@@ -36,7 +36,6 @@ Follow these steps to use the Impacket Symbolic Link Creator:
 5. **Sample Screenshot:**
    ![image](/sample_SS.png)
 
-
 ## How It Works
 
 The script operates in three main steps:
