@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This repository contains a bash script that creates symbolic links for the Impacket tools in Arch Linux. The need for this script arose because, in Arch Linux, the binary names of the Impacket tools do not begin with `impacket-`. This script provides a solution by creating symbolic links that follow the `impacket-` naming convention.
+This repository contains a bash script designed to enhance the user experience of Impacket tools on Arch Linux. The script creates symbolic links for each Impacket tool binary, following the naming convention `impacket-xxxxxxxx`, similar to the format used in Kali Linux.
+
+The primary aim of this script is to assist beginners and other users who may struggle to remember the exact names of the Impacket tools. By standardizing the tool names to begin with `impacket-xxxxxxxxx`, users can more easily recall and utilize these powerful resources.
 
 ## Prerequisites
 
