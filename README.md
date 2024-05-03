@@ -19,19 +19,19 @@ Follow these steps to use the Impacket Symbolic Link Creator:
 
 1. **Clone the Repository**: Use the following command to clone this repository to your local machine:
     ```bash
-    git clone https://github.com/NoobGajen/impacket-Symbolic-link-as-Kali-Linux.git
+    git clone https://github.com/NoobGajen/impacket-Symbolic-link-for-Arch-Linux-as-Kali-Linux.git
     ```
 2. **Navigate to the Directory**: Change your current directory to the cloned repository:
     ```bash
-    cd impacket-Symbolic-link-as-Kali-Linux
+    cd impacket-Symbolic-link-for-Arch-Linux-as-Kali-Linux
     ```
 3. **Make the Script Executable**: Modify the script permissions to make it executable:
     ```bash
-    chmod +x impacket_Symbolic_link_as_Kali_Linux.sh
+    chmod +x impacket-Symbolic-link-for-Arch-Linux-as-Kali-Linux.sh
     ```
 4. **Run the Script**: Execute the script to create the symbolic links:
     ```bash
-    ./impacket_Symbolic_link_as_Kali_Linux.sh
+    ./impacket-Symbolic-link-for-Arch-Linux-as-Kali-Linux.sh
     ```
 
 ## How It Works
