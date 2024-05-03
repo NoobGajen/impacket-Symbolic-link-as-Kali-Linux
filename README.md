@@ -33,6 +33,9 @@ Follow these steps to use the Impacket Symbolic Link Creator:
     ```bash
     ./impacket-Symbolic-link-for-Arch-Linux-as-Kali-Linux.sh
     ```
+5. **Sample Screenshot:**
+   ![image](/sample_SS.png)
+
 
 ## How It Works
 
