@@ -8,37 +8,44 @@ The primary aim of this script is to assist beginners and other users who may st
 
 ## Prerequisites
 
-- Arch Linux
-- Impacket tools installed
+Before you can use this script, ensure that you have the following:
+
+- **Arch Linux**: This script is specifically designed for Arch Linux systems.
+- **Impacket Tools**: The Impacket suite of tools should be installed on your system. These tools are a collection of Python classes for working with network protocols, which are essential for many network security tasks.
 
 ## Usage
 
-1. Clone this repository:
+Follow these steps to use the Impacket Symbolic Link Creator:
+
+1. **Clone the Repository**: Use the following command to clone this repository to your local machine:
     ```bash
     git clone https://github.com/NoobGajen/impacket-Symbolic-link-as-Kali-Linux.git
     ```
-2. Navigate to the cloned directory:
+2. **Navigate to the Directory**: Change your current directory to the cloned repository:
     ```bash
     cd impacket-Symbolic-link-as-Kali-Linux
     ```
-3. Make the script executable:
+3. **Make the Script Executable**: Modify the script permissions to make it executable:
     ```bash
     chmod +x impacket_Symbolic_link_as_Kali_Linux.sh
     ```
-4. Run the script:
+4. **Run the Script**: Execute the script to create the symbolic links:
     ```bash
     ./impacket_Symbolic_link_as_Kali_Linux.sh
     ```
 
 ## How It Works
 
-The script works by performing the following steps:
+The script operates in three main steps:
 
-1. It runs a loop to get the package name of the installed Impacket tools in your Arch Linux system.
-2. It then executes another loop to store the binary of the Impacket tools.
-3. Finally, it creates symbolic links as `/usr/bin/impacket-xxxxxxxx`.
+1. **Package Identification**: The script identifies the installed Impacket package on your Arch Linux system.
+2. **Binary Storage**: The script stores the binary of each Impacket tool.
+3. **Symbolic Link Creation**: The script creates symbolic links for each tool, following the naming convention `/usr/bin/impacket-xxxxxxxx`.
+
+By following these steps, the script ensures that each Impacket tool is easily identifiable and accessible, just like in Kali Linux.
 
 ## Author
 
-This script was created by NoobGajen.
+This script was developed by NoobGajen, a passionate developer committed to enhancing the user experience of Linux systems.
+
 
