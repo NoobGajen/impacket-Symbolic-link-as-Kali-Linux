@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#### Running for loop to get impacket package name which is installed in your arch linux.
+#### Running for loop to get impacket package name which is installed in your arch linux system.
 for i in $(pacman -Q | grep 'impacket\|python-impacket-git'| awk '{print $1}');
 do echo -e "$i package installed found... \n"
     
